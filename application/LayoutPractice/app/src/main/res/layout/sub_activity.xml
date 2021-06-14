@@ -25,5 +25,5 @@
         android:hint="010-0000-0000"
         android:inputType="phone"
         android:theme="@style/Base.Animation.AppCompat.Dialog" />
- 
+
 </LinearLayout>
