@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_n1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number1"
+            android:textColor="@android:color/black"
+            android:phoneNumber="true"
+            android:textSize="20dp"
+            android:hint="10"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_n2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number2"
+            android:phoneNumber="true"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:hint="20"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/plus_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/minus_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/multiplication_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/division_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Result"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
